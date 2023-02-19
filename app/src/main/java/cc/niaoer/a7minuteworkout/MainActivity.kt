@@ -1,12 +1,8 @@
 package cc.niaoer.a7minuteworkout
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.AttributeSet
-import android.view.View
-import android.widget.Toast
 import cc.niaoer.a7minuteworkout.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
