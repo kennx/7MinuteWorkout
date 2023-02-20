@@ -8,7 +8,6 @@ import android.os.CountDownTimer
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import cc.niaoer.a7minuteworkout.databinding.ActivityExerciseBinding
 import java.util.*
