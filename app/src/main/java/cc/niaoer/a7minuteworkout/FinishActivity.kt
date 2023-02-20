@@ -11,7 +11,7 @@ class FinishActivity : AppCompatActivity() {
         binding = ActivityFinishBinding.inflate(layoutInflater)
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_finish)
+        setContentView(binding.root)
 
         setSupportActionBar(binding.toolbarFinishActivity)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
