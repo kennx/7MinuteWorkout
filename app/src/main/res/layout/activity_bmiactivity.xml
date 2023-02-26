@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="#FFFFFF" />
-    
+
     <RadioGroup
         android:id="@+id/rgUnits"
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
             android:button="@null" />
 
     </RadioGroup>
-    
+
     <LinearLayout
         android:id="@+id/llUnitsView"
         android:layout_width="match_parent"
@@ -186,7 +186,7 @@
                 android:text="YOUR BMI"
                 android:textAllCaps="true"
                 android:textSize="16sp" />
-            
+
             <TextView
                 android:id="@+id/tvBMIValue"
                 android:layout_width="match_parent"
@@ -205,7 +205,7 @@
                 android:gravity="center"
                 android:textSize="18sp"
                 tools:text="Normal" />
-            
+
             <TextView
                 android:id="@+id/tvBMIDescription"
                 android:layout_width="match_parent"
@@ -216,7 +216,7 @@
                 tools:text="Normal" />
 
         </LinearLayout>
-        
+
         <Button
             android:id="@+id/btnCalculateUnits"
             android:layout_width="match_parent"
