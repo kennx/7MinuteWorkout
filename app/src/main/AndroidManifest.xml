@@ -12,6 +12,11 @@
         android:theme="@style/Theme.7MinuteWorkout"
         tools:targetApi="31">
         <activity
+            android:name=".HistoryActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
             android:name=".BMIActivity"
             android:exported="true"
             android:screenOrientation="portrait"
